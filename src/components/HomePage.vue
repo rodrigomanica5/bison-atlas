@@ -115,7 +115,7 @@
                                 type="textarea" lazy-rules
                                 :rules="[val => val && val.length > 0 || 'Please enter your message']" />
 
-                            <input type="hidden" name="_next" value="http://localhost:8080/thank-you">
+                            <input type="hidden" name="_next" value="https://bison-atlas.vercel.app/thank-you">
                             <input type="hidden" name="_subject" value="BAC New message">
                             <input type="hidden" name="_captcha" value="true">
                             <q-btn label="Send" type="submit" size="1rem" padding="sm xl" text-color="white"
